@@ -1,0 +1,33 @@
+﻿.header-arama {
+    position: relative;
+    width: 100%;
+    float: left;
+    background-color: #f1f1f1;
+    padding: 0 5px 0 5px !important;
+    box-sizing: border-box;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+/* DH Search */
+.dhsearch { position: relative; display: inline-block; width: 100%; height: 40px; padding: 10px 0 10px 0; }
+.dhsearch .search { display: inline-block; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0 165px 0 20px; width:100%; height: 40px; border-radius: 20px; box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15); background-color: #ffffff; border: none; font-size: 15px; letter-spacing: 0.14px; font-family: Arial; background-image: url(../img/fav-search.png);background-repeat: no-repeat; background-position: left; background-position-x: 10px; }
+.dhsearch .search:focus { outline: none; }
+.dhsearch .search-icon { height: 20px; width: 20px; z-index: 9990; display: inline-block; position: relative; left: 12px; top:32px;}
+.dhsearch .dropdown { cursor: pointer; z-index: 9990; display: inline-block; background: none; position: absolute; width: 116px; height: 26px; top: 17px; right: 43px; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none;}
+.dhsearch .dropdown .dropdown-menu { display: none; height: auto; width: 153px; background-color: #f1f1f1; margin-top: 2px; border-radius: 10px; border: 1px solid #dedede; -webkit-box-shadow: 1px 3px 10px 0px rgba(50, 50, 50, 0.46); -moz-box-shadow: 1px 3px 10px 0px rgba(50, 50, 50, 0.46); box-shadow: 1px 3px 10px 0px rgba(50, 50, 50, 0.46); }
+.dhsearch .dropdown .dropdown-menu .list { color: #999999; font-size: 10px; letter-spacing: 0.14px; padding: 0; margin: 0; }
+.dhsearch .dropdown .dropdown-menu .list li { padding: 7px 10px 7px 10px; font-size: 11px !important; border-bottom: 1px solid #E6E6E6; border-radius: 5px; list-style: none; }
+.dhsearch .dropdown .dropdown-menu .list li:last-child { border: none; } 
+.dhsearch .dropdown .dropdown-menu .list li:hover { background-color: #e0e0e0; }
+.dhsearch .dropdown .dropdown-menu .list .selected { background-color: #e0e0e0; cursor: default; }
+.dhsearch .dropdown .title { display: inline-block; padding: 0 0 0 12px; color: #999999; background-color: #f1f1f1; width: 102px; height: 24px; top: -4px; right: 136px; line-height: 25px;  border-radius: 20px; border: 1px solid #dedede; font-family: Arial; font-size: 11px; letter-spacing: 0.14px;}
+.dhsearch .dropdown .title span { font-size: 11px !important; overflow:hidden }
+.dhsearch .dropdown .title:hover { background-color: #e9e8e8; }
+.dhsearch .dropdown .title .dropdown-icon { height: 7px; width: 12px; position: absolute; right: 10px; top: 9px; }
+.dhsearch .search-button { cursor: pointer; display: inline-block; position: absolute; right: 2px; top: 12px; width: 36px; height: 36px; border-radius: 20px; background-image: linear-gradient(135deg, #dedede 0%, #999 100%); text-align: center; line-height: 30px; font-weight: 700; font-family: Arial; letter-spacing: 0.14px; font-size: 15px; color: #ffffff; }
+.dhsearch .search-button:hover { background-image: linear-gradient(135deg, #e4772f 0%, #d84e4a 100%); }
+.dhsearch .search-button .search-icon { position: absolute; top: 8px; left: 8px; }
+.dhsearch .info { width: 100%; text-align: center; opacity: 0.4; color: #000000; font-size: 10px !important; letter-spacing: 0.15px; margin: 0; padding: 10px 0 10px 0; }
+.dhsearch .info a { cursor: pointer; font-weight: 700; text-decoration: underline; font-size: 10px !important; color: #000; }
+			
+/* DH Search */
